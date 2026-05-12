@@ -73,39 +73,7 @@ export default function Team() {
           ))}
         </div>
 
-        {additionalTeam.length > 0 && (
-          <Reveal delay={200} className="mt-12">
-            <p className="mb-6 font-minora text-xs font-bold uppercase tracking-[0.3em] text-white/40">
-              + Engineering team and contractors
-            </p>
-            <div className="flex flex-wrap items-center gap-6 md:gap-10">
-              {additionalTeam.map((m) => (
-                <div
-                  key={m.name}
-                  className="flex items-center gap-4"
-                >
-                  <div className="relative h-14 w-14 overflow-hidden rounded-full ring-2 ring-white/10">
-                    <Image
-                      src={m.image}
-                      alt={m.name}
-                      fill
-                      sizes="56px"
-                      className="object-cover"
-                    />
-                  </div>
-                  <div>
-                    <p className="font-minora text-sm font-bold text-white">
-                      {m.name}
-                    </p>
-                    <p className="font-mono text-[11px] uppercase tracking-[0.15em] text-white/40">
-                      {m.role} · {m.tag}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </Reveal>
-        )}
+
       </div>
     </section>
   )
