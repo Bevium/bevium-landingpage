@@ -136,15 +136,7 @@ export const founders = [
     credits: 'Illuvium · Star Atlas · Stormind Games · Red Raion · STMicroelectronics',
     image: '/images/team/DanieleCalanna.png',
     linkedin: 'https://www.linkedin.com/in/danielecalanna/',
-  },
-  {
-    name: 'Federico Arona',
-    role: 'Co-Founder · UE5 / Full-Stack',
-    bio: 'UE5 (8+ yrs) · Java Spring · React / Angular · MongoDB. Gaming + Enterprise.',
-    credits: 'Good Fun Corp. · Star Atlas · Logistics Reply · Stormind Games',
-    image: '/images/team/FedericoArona.png',
-    linkedin: 'https://www.linkedin.com/in/federicoarona/',
-  },
+  }
 ]
 
 export const additionalTeam = [

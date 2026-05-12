@@ -26,7 +26,7 @@ export default function Team() {
           </Reveal>
         </div>
 
-        <div className="grid grid-cols-1 gap-px bg-white/10 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-px bg-white/10 md:grid-cols-2">
           {founders.map((m, i) => (
             <Reveal
               key={m.name}
