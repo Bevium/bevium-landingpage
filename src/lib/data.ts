@@ -1,3 +1,5 @@
+import { publicPath } from "./basePath"
+
 export const navLinks = [
   { label: 'Process', href: '#process' },
   { label: 'Team', href: '#team' },
@@ -90,7 +92,7 @@ export const portfolio = [
     id: 'illuvium',
     title: 'Illuvium',
     category: 'Unreal Engine 5 · Web3',
-    image: '/images/portfolio/illuvium.jpg',
+    image: publicPath('/images/portfolio/illuvium.jpg'),
     description:
       'Open-world fantasy battle game on Ethereum. Senior C++ UI engineering and core systems on UE5 + GAS.',
   },
@@ -98,7 +100,7 @@ export const portfolio = [
     id: 'staratlas',
     title: 'Star Atlas',
     category: 'Unreal Engine 5 · Web3',
-    image: '/images/portfolio/staratlas.png',
+    image: publicPath('/images/portfolio/staratlas.png'),
     description:
       'Space MMO on Solana, powered by UE5. Architecture, multiplayer, Ledger hardware-wallet integration.',
   },
@@ -106,7 +108,7 @@ export const portfolio = [
     id: 'shaga',
     title: 'SHAGA',
     category: 'Systems Integration',
-    image: '/images/portfolio/shaga.png',
+    image: publicPath('/images/portfolio/shaga.png'),
     description:
       'Decentralized cloud-gaming protocol: low-latency P2P streaming, Overwolf, Remote Transaction Signing.',
   },
@@ -114,7 +116,7 @@ export const portfolio = [
     id: 'arcas',
     title: 'Arcas Champions',
     category: 'Unreal Engine 5',
-    image: '/images/portfolio/arcas-champions.jpg',
+    image: publicPath('/images/portfolio/arcas-champions.jpg'),
     description:
       'Third-person ability shooter. Gameplay engineering, abilities and combat systems on UE5.',
   },
@@ -126,7 +128,7 @@ export const founders = [
     role: 'Co-Founder · Senior C++ Architect',
     bio: 'Agentic AI · UI Systems · Web3. Unreal Authorized Instructor (Epic Games).',
     credits: 'Illuvium · Star Atlas · Stormind Games · CLARA (UniCT)',
-    image: '/images/team/RiccardoTorrisi.png',
+    image: publicPath('/images/team/RiccardoTorrisi.png'),
     linkedin: 'https://www.linkedin.com/in/riccardotorrisi/',
   },
   {
@@ -134,14 +136,14 @@ export const founders = [
     role: 'Co-Founder · Senior C++ Engineer',
     bio: 'Gameplay AI · Animation · VR · CUDA / parallel computing.',
     credits: 'Illuvium · Star Atlas · Stormind Games · Red Raion · STMicroelectronics',
-    image: '/images/team/DanieleCalanna.png',
+    image: publicPath('/images/team/DanieleCalanna.png'),
     linkedin: 'https://www.linkedin.com/in/danielecalanna/',
   }
 ]
 
 export const additionalTeam = [
-  { name: 'Manuel Zuccaro', role: 'Engineer', tag: 'UE5 · C++', image: '/images/team/ManuelZuccaro.png' },
-  { name: 'Sabrina Pizzo', role: 'Engineer', tag: 'UE5 · C++', image: '/images/team/SabrinaPizzo.png' },
+  { name: 'Manuel Zuccaro', role: 'Engineer', tag: 'UE5 · C++', image: publicPath('/images/team/ManuelZuccaro.png') },
+  { name: 'Sabrina Pizzo', role: 'Engineer', tag: 'UE5 · C++', image: publicPath('/images/team/SabrinaPizzo.png') },
 ]
 
 export const testimonials = [
@@ -162,11 +164,11 @@ export const testimonials = [
 ]
 
 export const clientLogos = [
-  { name: 'Illuvium', src: '/images/clients-logo/illuvium.png', highContrast: true },
-  { name: 'Star Atlas', src: '/images/clients-logo/staratlas.png', highContrast: true },
-  { name: 'SHAGA', src: '/images/clients-logo/shaga.png', highContrast: false },
-  { name: 'Arcas Champions', src: '/images/clients-logo/arcaschampions.png', highContrast: false },
-  { name: "ARC'S", src: '/images/clients-logo/Arcs.png', highContrast: true },
+  { name: 'Illuvium', src: publicPath('/images/clients-logo/illuvium.png'), highContrast: true },
+  { name: 'Star Atlas', src: publicPath('/images/clients-logo/staratlas.png'), highContrast: true },
+  { name: 'SHAGA', src: publicPath('/images/clients-logo/shaga.png'), highContrast: false },
+  { name: 'Arcas Champions', src: publicPath('/images/clients-logo/arcaschampions.png'), highContrast: false },
+  { name: "ARC'S", src: publicPath('/images/clients-logo/Arcs.png'), highContrast: true },
 ]
 
 export const contact = {

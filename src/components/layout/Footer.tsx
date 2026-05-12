@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { contact, navLinks } from '@/lib/data'
+import { publicPath } from '@/lib/basePath'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -11,7 +12,7 @@ export default function Footer() {
           <div className="md:col-span-5">
             <Link href="/" className="inline-block" data-cursor="hover">
               <Image
-                src="/images/logo/Bevium_fulllogo_fullwhite.png"
+                src={publicPath('/images/logo/Bevium_fulllogo_fullwhite.png')}
                 alt="Bevium"
                 width={140}
                 height={36}

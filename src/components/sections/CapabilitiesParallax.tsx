@@ -1,6 +1,7 @@
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import Certifications from './Certifications'
+import { publicPath } from '@/lib/basePath'
 
 const ParallaxScene = dynamic(
   () => import('@/components/ui/parallax-scene').then((m) => m.ParallaxScene),
@@ -39,7 +40,7 @@ export default function CapabilitiesParallax() {
               <div className="relative h-full w-full">
                 <div className="absolute left-1/2 top-1/2 h-[120%] w-[120%] -translate-x-1/2 -translate-y-1/2">
                   <Image
-                    src="/images/establishing/RealTime-3d-industrialSimulation.png"
+                    src={publicPath('/images/establishing/RealTime-3d-industrialSimulation.png')}
                     alt=""
                     fill
                     className="object-cover opacity-30 mix-blend-screen"

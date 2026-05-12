@@ -1,29 +1,30 @@
 import Image from 'next/image'
 import { ExternalLink } from 'lucide-react'
 import Reveal from '@/components/ui/reveal'
+import { publicPath } from '@/lib/basePath'
 
 const credentials = [
   {
     year: '2023',
-    image: '/images/certifications/uai-2023.png',
+    image: publicPath('/images/certifications/uai-2023.png'),
     link: 'https://www.credential.net/e2779597-8889-493e-9c63-4d5e48c3fdba#acc.OMUGTPLQ',
     current: false,
   },
   {
     year: '2024',
-    image: '/images/certifications/uai-2024.png',
+    image: publicPath('/images/certifications/uai-2024.png'),
     link: 'https://www.credential.net/e7348df1-cd55-476c-be2e-ff3ee0e2f89d#acc.MQC390Xp',
     current: false,
   },
   {
     year: '2025',
-    image: '/images/certifications/uai-2025.png',
+    image: publicPath('/images/certifications/uai-2025.png'),
     link: 'https://www.credential.net/aae31ded-53f6-4508-a31e-b511ea231192#acc.nfKZhijc',
     current: false,
   },
   {
     year: '2026',
-    image: '/images/certifications/uai-2026.png',
+    image: publicPath('/images/certifications/uai-2026.png'),
     link: 'https://credential.unrealengine.com/6a70162f-7dcf-45df-bb56-bd6000bc4ca3#acc.mhGD3KL8',
     current: true,
   },

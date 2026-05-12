@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { ArrowUpRight, Menu, X } from 'lucide-react'
 import { navLinks } from '@/lib/data'
 import { cn } from '@/lib/utils'
+import { publicPath } from '@/lib/basePath'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -33,7 +34,7 @@ export default function Navbar() {
           data-cursor="hover"
         >
           <Image
-            src="/images/logo/Bevium_fulllogo_redwhite.svg"
+            src={publicPath('/images/logo/Bevium_fulllogo_redwhite.svg')}
             alt="Bevium"
             width={120}
             height={32}
