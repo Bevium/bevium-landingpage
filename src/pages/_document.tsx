@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="icon" href={publicPath('/images/logo/Bevium_iconlogo_redblack.png')}/>
+        <link rel="icon" href={publicPath('/images/logo/Bevium_iconlogo_redwhite_32_32.png')}/>
         <meta
           name="description"
           content="Bevium: Technical partner for complex software projects with focus on AI integration and interactive/3D software. Senior engineers integrated directly into your team."
