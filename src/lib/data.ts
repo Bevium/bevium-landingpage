@@ -152,14 +152,14 @@ export const testimonials = [
       'Working with Bevium exceeded our expectations. They helped to identify and refine the technical goals of the product, fully architect core systems, and brought high collaborative energy to the team.',
     name: 'Jacob Floyd',
     role: 'CTO · Star Atlas',
-    image: publicPath('/images/reviews-profiles/JacobFloyd.jpg'),
+    image: '/images/reviews-profiles/JacobFloyd.jpg',
   },
   {
     quote:
       'A reliable and effective team, flexible in handling complex challenges.',
     name: 'Matteo Rolfo',
     role: "Managing Director · ARC'S",
-    image: publicPath('/images/reviews-profiles/MatteoRolfo.jpg'),
+    image: '/images/reviews-profiles/MatteoRolfo.jpg',
   },
 ]
 
