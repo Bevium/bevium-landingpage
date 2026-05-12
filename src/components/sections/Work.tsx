@@ -51,10 +51,10 @@ export default function Work() {
                 <p className="mt-4 max-w-md text-sm leading-relaxed text-white/65 md:text-base">
                   {item.description}
                 </p>
-                <div className="mt-6 flex items-center gap-2 font-minora text-xs font-bold uppercase tracking-[0.18em] text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                { /*<div className="mt-6 flex items-center gap-2 font-minora text-xs font-bold uppercase tracking-[0.18em] text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                   Case study
                   <ArrowUpRight className="h-4 w-4" />
-                </div>
+                </div>*/ }
               </div>
             </Reveal>
           ))}
