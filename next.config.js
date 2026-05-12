@@ -1,13 +1,12 @@
 /** @type {import('next').NextConfig} */
-const repo = 'bevium-landingpage'
-
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  basePath: `/${repo}`,
-  assetPrefix: `/${repo}/`,
   images: {
     unoptimized: true,
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: '',
   },
 }
 
