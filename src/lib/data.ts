@@ -142,8 +142,8 @@ export const founders = [
 ]
 
 export const additionalTeam = [
-  { name: 'Manuel Zuccaro', role: 'Engineer', tag: 'UE5 · C++', image: publicPath('/images/team/ManuelZuccaro.png') },
-  { name: 'Sabrina Pizzo', role: 'Engineer', tag: 'UE5 · C++', image: publicPath('/images/team/SabrinaPizzo.png') },
+  /*{ name: 'Manuel Zuccaro', role: 'Engineer', tag: 'UE5 · C++', image: publicPath('/images/team/ManuelZuccaro.png') },
+  { name: 'Sabrina Pizzo', role: 'Engineer', tag: 'UE5 · C++', image: publicPath('/images/team/SabrinaPizzo.png') },*/
 ]
 
 export const testimonials = [
